@@ -14,6 +14,10 @@ h1 {
   font-size: 3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 80%;
   max-width: 1280px;
@@ -28,6 +32,11 @@ h1 {
 
 .hero__text {
   width: 60%;
+}
+
+.hero__img {
+  width: 30%;
+  align-self: flex-start;
 }
 
 .hero p {
@@ -52,6 +61,7 @@ h1 {
 
 .row {
   display: flex;
+  justify-content: space-between;
 }
 
 .col {
@@ -63,7 +73,7 @@ h1 {
 }
 
 .three-col {
-  text-align: center;
+  text-align: enter;
   padding: 3em 0;
 }
 
