@@ -49,3 +49,31 @@ h1 {
 .btn:focus {
   opacity: 0.75;
 }
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 30px;
+}
+
+.three-col {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.three-col h2 {
+  color: #87629a;
+}
+
+.two-col {
+  text-align: center;
+  background-color: #136c72;
+  color: #fff;
+  padding: 3em 0;
+}
