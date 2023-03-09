@@ -14,6 +14,10 @@ h1 {
   font-size: 3rem;
 }
 
+.section-title {
+  color: #87629a;
+}
+
 img {
   max-width: 100%;
 }
@@ -86,4 +90,20 @@ img {
   background-color: #136c72;
   color: #fff;
   padding: 3em 0;
+}
+
+.main {
+  margin-top: 3em;
+}
+
+.primary-content {
+  width: 62%;
+}
+
+.sidebar {
+  width: 32%;
+  text-align: center;
+  background-color: #136c72;
+  color: #fff;
+  padding: 1em;
 }
