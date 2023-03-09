@@ -22,6 +22,35 @@ img {
   max-width: 100%;
 }
 
+header {
+  background-color: #136c72;
+  padding: 1em 0;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 1em;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
 .container {
   width: 80%;
   max-width: 1280px;
