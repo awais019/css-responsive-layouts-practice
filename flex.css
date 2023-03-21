@@ -30,6 +30,7 @@ section {
 .container {
   width: 85%;
   margin: 0 auto;
+  max-width: 1128px;
 }
 
 .section-title {
@@ -46,6 +47,9 @@ section {
   padding: 200px 0;
   text-align: center;
   color: #824936;
+  min-height: 660px;
+  display: flex;
+  items-align: center;
 }
 
 .intro__text {
@@ -56,7 +60,7 @@ section {
   margin: 0 0 0.25em;
 }
 
-.into__title {
+.intro__title {
   font-size: 3rem;
 }
 
@@ -68,4 +72,23 @@ section {
 .section-four {
   background-color: #824936;
   color: #fff;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+  }
+  .col + .col {
+    margin-left: 5em;
+  }
+  .intro__title {
+    font-size: 3.75rem;
+  }
+  .section-title--dark {
+    text-align: center;
+  }
 }
